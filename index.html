@@ -1,20 +1,20 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
+venue: "Winona State University"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Room TBD, Pasteur Hall, Winona State University, Winona, MN "      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "US"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "US"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "44.047996, -91.643819"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "March 6-7, 2017"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2017-03-06      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2017-03-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["TBD"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TDB"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["nmoore@winona.edu,HLeverentz@winona.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+etherpad: http://pad.software-carpentry.org/2017-03-06-winona            # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -47,10 +47,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
+<!--
 <h4>This is the workshop template.  Use it to create your own website.
 Delete these lines and please fill in 
 <a href="{{site.amy_site}}/submit">this self-organized workshop form</a>
 and the administrator will contact you if we need any extra information.</h4>
+-->
 
 <h2 id="general">General Information</h2>
 
@@ -87,7 +89,8 @@ and the administrator will contact you if we need any extra information.</h4>
 -->
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at faculty members within the Minesota State College and University System.  Depending on registrations 
+  there may be space for staff, students, and community members.
   <strong>You don't need to have any previous knowledge of the tools that will
     be presented at the workshop.</strong>
 </p>
@@ -193,7 +196,7 @@ and the administrator will contact you if we need any extra information.</h4>
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Day 1, March 6</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
@@ -204,12 +207,12 @@ and the administrator will contact you if we need any extra information.</h4>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Day 2, March 7</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>09:00</td>  <td>Building programs with Python</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
+      <tr> <td>13:00</td>  <td>Version control with Git</td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
@@ -328,6 +331,7 @@ and the administrator will contact you if we need any extra information.</h4>
       <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
+<!--
   <div class="col-md-6">
     <h3 id="syllabus-sql">Managing Data with SQL</h3>
     <ul>
@@ -342,6 +346,7 @@ and the administrator will contact you if we need any extra information.</h4>
       <li><a href="{{site.swc_pages}}/sql-novice-survey/reference/">Reference...</a></li>
     </ul>
   </div>
+-->
 </div>
 
 <hr/>
@@ -659,16 +664,18 @@ and the administrator will contact you if we need any extra information.</h4>
       </ol>
     </div>
   </div>
-<!--
+
   <p>
   Once you are done installing the software listed above,
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
--->
+
 </div> <!-- End of 'Python' section. -->
 
-<div id="r"> <!-- Start of 'R' section. -->
+
+<!-- <div id="r"> <!-- Start of 'R' section. --> 
+<!--
   <h3>R</h3>
 
   <p>
@@ -719,7 +726,9 @@ and the administrator will contact you if we need any extra information.</h4>
   </div>
 </div> <!-- End of 'R' section. -->
 
+<!--
 <div id="sql"> <!-- Start of 'SQLite' section. -->
+<!--  
   <h3>SQLite</h3>
 
   <p>
